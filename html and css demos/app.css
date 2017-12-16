@@ -1,0 +1,22 @@
+h1 {
+	color: red;
+	/*border-color: purple;
+	border-width: 5px;
+	border-style: solid;*/
+
+	border: 8px dashed green;
+}
+
+li {
+	color: green;
+}
+
+h4 {
+	color: purple;
+	background: rgb(255,100,80);
+}
+
+body {
+	background: url(woodgrain1.jpg);
+	background-size: cover;
+}

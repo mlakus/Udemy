@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration Form</title>
+</head>
+<body>
+	<h1>Register</h1>
+
+	<form>
+<!-- Name Section -->
+		<p>
+		<label for="firstName">First Name: </label>
+		<input name="first" id="firstName" type="text" placeholder="John" required>
+
+		<label for="lastName">Last Name: </label>
+		<input name="last" id="lastName" type="text" placeholder="Smith" required>
+		</p>
+<!-- Radio Button Section -->
+		<p>
+		<label for="male">Male </label>
+		<input name="genderChoice" id="male" type="radio">
+
+		<label for="female">Female </label>
+		<input name="genderChoice" id="female" type="radio">
+
+		<label for="other">Other </label>
+		<input name="genderChoice" id="other" type="radio">
+		</p>
+<!-- Email Section -->
+		<p>
+		<label for="email">Email: </label>
+		<input name="email" id="email" type="email" placeholder="your email" required>
+
+		<label for="password">Password: </label>
+		<input name="password" id="password" type="password" placeholder="your password" pattern=".{5,10}" required title="Password must be between 5 and 10 characters.">
+		</p>
+
+<!-- DOB Section -->
+		<p>
+		<label for="bday">Birthday: </label>
+		<select id="bday" name="dobMonth">
+			<option>Month</option>
+			<option>Jan</option>
+			<option>Feb</option>
+			<option>Mar</option>
+			<option>Apr</option>
+			<option>May</option>
+			<option>Jun</option>
+			<option>Jul</option>
+			<option>Aug</option>
+			<option>Sep</option>
+			<option>Oct</option>
+			<option>Nov</option>
+			<option>Dec</option>
+		</select>
+		<select id="bday" name="dobDay">
+			<option>Day</option>
+			<option>2</option>
+			<option>3</option>
+			<option>4</option>
+			<option>5</option>
+		</select>
+		<select id="bday" name="dobYear">
+			<option>Year</option>
+			<option>1994</option>
+			<option>1998</option>
+			<option>2002</option>
+			<option>2006</option>
+		</select>
+		</p>
+
+<!-- Terms Section -->
+		<p>
+		<label for="terms">I aggree to the terms and conditions: </label>
+		<input id="terms" type="checkbox" name="terms">
+		</p>
+
+<!-- Button Section -->
+		<button>Submit</button>
+	</form>
+</body>
+</html>
