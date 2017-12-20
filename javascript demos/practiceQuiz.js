@@ -26,7 +26,7 @@ function isUniform(array){
 function sumArray(array){
 	var sum = 0;
 	array.forEach(function(element){
-		sum += el
+		sum += element
 	})
 	return sum;
 }
